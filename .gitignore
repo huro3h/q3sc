@@ -1,0 +1,4 @@
+data/ssh
+data/sc*
+.idea/
+*.c
