@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  web2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - ./data:/data
+    platform: linux/amd64
